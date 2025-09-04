@@ -19,4 +19,4 @@ on:
         - name: build docker image
           run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest .
         - name: push docker image
-          run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest  
+          run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest 
